@@ -1,23 +1,23 @@
 package com.example.demo.exeption;
 
-public class Eception extends Exception {
-    public Eception() {
+public class MyException extends Exception {
+    public MyException() {
         super();
     }
 
-    public Eception(String message) {
+    public MyException(String message) {
         super(message);
     }
 
-    public Eception(String message, Throwable cause) {
+    public MyException(String message, Throwable cause) {
         super(message, cause);
     }
 
-    public Eception(Throwable cause) {
+    public MyException(Throwable cause) {
         super(cause);
     }
 
-    protected Eception(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    protected MyException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
